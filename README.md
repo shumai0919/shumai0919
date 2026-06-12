@@ -3,6 +3,11 @@
 ## 📊 Coding Stats
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=312yro5ezhvu5qge36pcpojszqd4&cover_image=true&theme=default&show_offline=true&background_color=616161&interchange=true&profanity=false&hide_remaster=false&bar_color_cover=false&bar_color=4ca249)](https://spotify-github-profile.kittinanx.com/api/view?uid=312yro5ezhvu5qge36pcpojszqd4&redirect=true)
