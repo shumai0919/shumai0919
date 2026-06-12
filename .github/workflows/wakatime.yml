@@ -5,9 +5,11 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
-    name: Update README with WakaTime stats
     runs-on: ubuntu-latest
 
     steps:
@@ -16,7 +18,3 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Updated WakaTime stats
